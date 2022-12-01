@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <header>
+      Preview Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
+      interpretation composed by Olivier Polge, Perfumer-Creator for the House
+      of CHANEL. $149.99 $169.99 Add to Cart
+      <div>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
         </a>
+        . Coded by <a href="#">Adhil Lawton</a>.
+      </div>
       </header>
-    </div>
+    </>
   );
 }
 
